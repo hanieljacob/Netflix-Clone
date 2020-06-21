@@ -1,0 +1,231 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+img {
+    width:60%;
+    height:auto;
+}
+p{
+    position: absolute;
+    left: 4%;
+    top: 100%;
+    margin: 0%;
+    padding: 0%;
+    border: 0%
+}
+section{
+    height: 70vh;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body hr{
+    background-color: rgb(44, 42, 42);
+    height: 10px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div h1{
+    position: absolute;
+    left:25%;
+    top:30%;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+}
+div h2{
+    position: absolute;
+    left:25%;
+    top:52%;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+div h3{
+    position: absolute;
+    left:25%;
+    top:72%;
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    width: 50%;
+    text-align: center;
+}
+input{
+    position: absolute;
+    top:60%;
+    left:25%;
+    max-width: 33%;
+    min-height: 10%;
+    border-radius: 0;
+}
+form button{
+    position: absolute;
+    top:60%;
+    left:58%;
+    min-width: 18%;
+    min-height: 10%;
+}
+.repeat1 h1{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: fit-content;
+    position: relative;
+    top: 30%;
+    left: 10%;
+}
+.repeat1 h2{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    width: 40%;
+    top: 30%;
+    left: 10%;
+}
+.repeat1 img{
+    position: relative;
+    left: 120vh;
+    bottom: 15vh;
+    max-height: 30rem;
+    max-width: 30rem;
+}
+.repeat2 h1{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    width: 40%;
+    position: relative;
+    top: 30%;
+    left: 50%;
+}
+.repeat2 h2{
+    color: white;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    position: relative;
+    width: 40%;
+    top: 30%;
+    left: 50%;
+}
+.repeat2 img{
+    position: relative;
+    left: 20vh;
+    bottom: 20vh;
+    max-height: 30rem;
+    max-width: 30rem;
+}
+.background{
+    width: 100%;
+    height: 720px;
+    background-image: url("./images/netflix-background.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding: 20%;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    border: 0%
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(15, 15, 17, 0.7);
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+.accordian-item{
+    background-color: rgb(58, 58, 58);
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: 'Martel Sans', sans-serif;
+    font-weight: 500;
+    color: white; 
+    position: relative;
+    left: 22vh;
+    width: 70%;
+    box-shadow: 0.5rem 2px 0.5rem rgba(0,0,0,.1);
+}
+.accordian-link{
+    font-size: 1.6rem;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+.answer{
+    max-height: 0;
+    overflow: hidden;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+    bottom:8vh;
+}
+.grid-container {
+    width: 60%;
+    position: relative;
+    top: 22%;
+    left: 10%;
+    display: grid;
+    grid-gap: 3vh;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px 0 0 100px;
+}
+.grid-item {
+    color: rgb(112, 112, 112);
+    padding: 5px;
+    font-size: 2.2vh;
+    text-align: start;
+}
+#sign-in{
+    background-color: #E50914;
+    position: absolute;
+    right: 5%;
+    top: 4%;
+}   
+#try-now{
+    background-color: #E50914;
+    font-size: 2rem;
+}
+#try-now2{
+    background-color: #E50914;
+    font-size: 2rem;
+}
+#faq{
+    color: white;
+    text-align: center;
+    position: relative;
+    top:10vh;
+    width:100%;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+#accordian-section{
+    position: relative;
+    width: 100%;
+    height: 150vh;
+}
